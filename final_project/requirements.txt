@@ -3,3 +3,6 @@ Flask-WTF==0.14.3
 ibm-watson==4.4.1
 python-dotenv==0.13.0
 pyJWT==1.7.1
+pytest==7.2.0
+pylint==2.15.9
+
