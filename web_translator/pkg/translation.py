@@ -43,7 +43,6 @@ def en_to_fr(text: str, translator: LanguageTranslatorV3) -> str:
         .get_result()['translations'][0]['translation']
     return en_fr_translated_text
 
-
 def fr_to_en(text: str, translator: LanguageTranslatorV3) -> str:
     """
     fr_to_en translate en to fr
